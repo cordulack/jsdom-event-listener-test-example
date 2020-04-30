@@ -8,7 +8,7 @@ describe('headings.js', function() {
     beforeEach(async function() {
       dom = await JSDOM.fromFile('./js/test-data/jsdom-test-page.html', {
         resources: 'usable',
-        runScripts: 'dangerously',
+        runScripts: 'dangerously'
       });
 
       await new Promise((resolve) =>
